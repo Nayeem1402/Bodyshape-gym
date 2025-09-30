@@ -1,11 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> </title>
+    <title> Body Shape </title>
+
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- tailwind cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <style>
+        * {
+            font-family: "Sansita", sans-serif;
+            background: #000;
+        }
+    </style>
+
 </head>
+
 <body>
-    
+
+    <!-- navbar  -->
+
+    <nav class="flex w-[90%] mx-auto flex-col md:flex-row justify-between items-center py-5  ">
+        <div class="flex flex-col items-center justify-center   ">
+            <div class="flex items-center gap-4">
+                <img class="h-5 " src="./images/logo_left.png" alt="">
+                <h1 class="text-2xl   text-[#9E5417] font-bold"> Body Shape </h1>
+                <img class="h-5 " src="./images/logo_right.png" alt="">
+            </div>
+            <p class=" text-[#9E5417] text-sm mt-2"> Unleash your inner athlete </p>
+        </div>
+
+        <!-- nav manu  -->
+        <div class="flex justify-center gap-10 max-h-6 text-white mt-6 md:mt-0">
+            <a href="#" class="hover:text-[#9E5417] hover:border-b-2 hover:border-[#9E5417]"> Home </a>
+            <a href="#" class="hover:text-[#9E5417] hover:border-b-2 hover:border-[#9E5417]"> Services </a>
+            <a href="#" class="hover:text-[#9E5417] hover:border-b-2 hover:border-[#9E5417]"> About </a>
+            <a href="#" class="hover:text-[#9E5417] hover:border-b-2 hover:border-[#9E5417]"> Contacts </a>
+        </div>
+    </nav>
+
+
+
 </body>
+
 </html>
