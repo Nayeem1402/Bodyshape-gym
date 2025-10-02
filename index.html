@@ -16,10 +16,18 @@
     <!-- tailwind cdn -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
+    <!-- font awassam kit -->
+
+    <script src="https://kit.fontawesome.com/2b40cc4b1c.js" crossorigin="anonymous"></script>
+
+
+    <!-- custom css -->
+
     <style>
         * {
             font-family: "Sansita", sans-serif;
-            background: #000;
+            /* background: #000; */
+            color: white;
         }
     </style>
 
@@ -29,26 +37,55 @@
 
     <!-- navbar  -->
 
-    <nav class="flex w-[90%] mx-auto flex-col md:flex-row justify-between items-center py-5  ">
-        <div class="flex flex-col items-center justify-center   ">
-            <div class="flex items-center gap-4">
-                <img class="h-5 " src="./images/logo_left.png" alt="">
-                <h1 class="text-2xl   text-[#9E5417] font-bold"> Body Shape </h1>
-                <img class="h-5 " src="./images/logo_right.png" alt="">
+    <section class=" bg-black  fixed top-0 left-0 w-full z-50 opacity-90">
+        <nav class="flex w-[90%] mx-auto flex-col md:flex-row justify-between items-center py-5 bg-black  ">
+            <div class="flex flex-col items-center justify-center  ">
+                <div class="flex items-center gap-4">
+                    <img class="h-5 " src="./images/logo_left.png" alt="">
+                    <h1 class="text-2xl   text-[#9E5417] font-bold"> Body Shape </h1>
+                    <img class="h-5 " src="./images/logo_right.png" alt="">
+                </div>
+                <p class=" text-[#9E5417] text-sm mt-2"> Unleash your inner athlete </p>
             </div>
-            <p class=" text-[#9E5417] text-sm mt-2"> Unleash your inner athlete </p>
+
+            <!-- nav manu  -->
+            <div class="flex justify-center gap-10 max-h-6 text-white mt-6 md:mt-0">
+                <a href="#" class="hover:text-[#9E5417] hover:border-b-2 hover:border-[#9E5417]"> Home </a>
+                <a href="#" class="hover:text-[#9E5417] hover:border-b-2 hover:border-[#9E5417]"> Services </a>
+                <a href="#" class="hover:text-[#9E5417] hover:border-b-2 hover:border-[#9E5417]"> About </a>
+                <a href="#" class="hover:text-[#9E5417] hover:border-b-2 hover:border-[#9E5417]"> Contacts </a>
+            </div>
+        </nav>
+
+    </section>
+
+    <!-- main banner section   -->
+
+    <div class="">
+        <img class="w-full h-[100vh] object-cover absolute" src="./images/banner.png" alt="">
+
+        <div class="relative top-50 md:w-[531px]  py-8 px-20 sm:mx-auto text-center md:mx-0 md:text-start "
+            style="background:  linear-gradient(180.00deg, rgba(57.375, 57.375, 57.375, 0.25),rgba(57.375, 57.375, 57.375, 0) 100%);">
+            <h1 class="text-[64px] leading-15">Transform <br> Your Body</h1>
+            <br>
+            <p>We are dedicated to helping you transform your <br>
+                body and mind through the power of fitness.</p>
+
+
+            <div class="mt-8 flex gap-4">
+                <button
+                    class="bg-gradient-to-r from-[#FF512F] to-[#DD2476] text-white px-6 py-3 border-2 border-[#F66844] transition duration-300 ">
+                    Get Started
+                </button>
+
+                <button class="border-[#F66844] py-3 px-6 border-2 hover:bg-[#F66844] ">
+                    <i class="fa-regular fa-circle-play" style="color: #f66844; "></i>
+                    Watch Reviews
+                </button>
+            </div>
         </div>
 
-        <!-- nav manu  -->
-        <div class="flex justify-center gap-10 max-h-6 text-white mt-6 md:mt-0">
-            <a href="#" class="hover:text-[#9E5417] hover:border-b-2 hover:border-[#9E5417]"> Home </a>
-            <a href="#" class="hover:text-[#9E5417] hover:border-b-2 hover:border-[#9E5417]"> Services </a>
-            <a href="#" class="hover:text-[#9E5417] hover:border-b-2 hover:border-[#9E5417]"> About </a>
-            <a href="#" class="hover:text-[#9E5417] hover:border-b-2 hover:border-[#9E5417]"> Contacts </a>
-        </div>
-    </nav>
-
-
+    </div>
 
 </body>
 
