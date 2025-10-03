@@ -26,8 +26,7 @@
     <style>
         * {
             font-family: "Sansita", sans-serif;
-            /* background: #000; */
-            color: white;
+
         }
     </style>
 
@@ -37,9 +36,9 @@
 
     <!-- navbar  -->
 
-    <section class=" bg-black  fixed top-0 left-0 w-full z-50 opacity-90">
-        <nav class="flex w-[90%] mx-auto flex-col md:flex-row justify-between items-center py-5 bg-black  ">
-            <div class="flex flex-col items-center justify-center  ">
+    <section class=" bg-black  fixed top-0 left-0 w-full z-50 opacity-90 ">
+        <nav class="flex w-[90%] mx-auto flex-col md:flex-row justify-between items-center py-2 bg-black  ">
+            <div class="flex flex-col items-center justify-center hidden md:block ">
                 <div class="flex items-center gap-4">
                     <img class="h-5 " src="./images/logo_left.png" alt="">
                     <h1 class="text-2xl   text-[#9E5417] font-bold"> Body Shape </h1>
@@ -60,11 +59,11 @@
     </section>
 
     <!-- main banner section   -->
+    <!-- class="bg-[url(./images/banner.png)] h-screen object-cover bg-no-repeat w-full" -->
+    <div class="h-screen text-white bg-black">
+        <img class="w-full h-screen object-cover absolute" src="./images/banner.png" alt="">
 
-    <div class="">
-        <img class="w-full h-[100vh] object-cover absolute" src="./images/banner.png" alt="">
-
-        <div class="relative top-50 md:w-[531px]  py-8 px-20 sm:mx-auto text-center md:mx-0 md:text-start "
+        <div class="relative top-50 md:w-[531px]   py-8 px-20 sm:mx-auto text-center md:mx-0 md:text-start "
             style="background:  linear-gradient(180.00deg, rgba(57.375, 57.375, 57.375, 0.25),rgba(57.375, 57.375, 57.375, 0) 100%);">
             <h1 class="text-[64px] leading-15">Transform <br> Your Body</h1>
             <br>
@@ -74,7 +73,7 @@
 
             <div class="mt-8 flex gap-4">
                 <button
-                    class="bg-gradient-to-r from-[#FF512F] to-[#DD2476] text-white px-6 py-3 border-2 border-[#F66844] transition duration-300 ">
+                    class=" bg-gradient-to-r from-[#FF512F] to-[#DD2476] px-6 py-3 border-2 border-[#F66844] transition duration-300 ">
                     Get Started
                 </button>
 
@@ -85,7 +84,59 @@
             </div>
         </div>
 
+        <div
+            class="flex gap-4 absolute bottom-[-1px] bg-gradient-to-r from-[#FF512F] to-[#DD2476] px-6 py-3  [clip-path:polygon(0_0,100%_0,90%_100%,0_100%)]">
+            <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-youtube" style="color: #ffffff;"></i>
+
+        </div>
     </div>
+
+
+    <!-- fitness plan section -->
+
+
+
+
+
+    <div class="relative h-screen overflow-hidden">
+        <div
+            class="absolute inset-0 bg-[url(./images/roated_banner.png)] bg-cover bg-center  bg-black/65 bg-blend-multiply scale-x-[-1] ">
+        </div>
+        <div class="relative z-10 pt-16 md:pt-20 w-[90%] mx-auto">
+            <h1 class="text-5xl text-white">Fitness Plans & <span class="text-[#FF512F]  ">Nutritions</span></h1>
+        </div>
+
+
+        <!-- plans cards section -->
+
+        <section class="z-20">
+            <div class="z-20">
+                <i class="fa-solid fa-dumbbell" style="color: #ffffff;"></i>
+            </div>
+        </section>
+
+    </div>
+
+
+
+
+    <!-- our trainer section -->
+
+    <section class="bg-black">
+        <div class="w-[90%] mx-auto py-20 bg-black">
+            <h1 class="text-5xl  text-white text-center md:text-start"> Join Our <span class="text-[#FF512F]">
+                    Trainers
+                </span></h1>
+
+                <div class="flex justify-center flex-wrap gap-10 mt-10 flex-col md:flex-row  w-[80%] mx-auto">
+                    <img src="./images/trainer_01.png" alt="">
+                    <img src="./images/trainer_02.png" alt="">
+                    <img src="./images/trainer_03.png" alt="">
+                </div>
+        </div>
+    </section>
 
 </body>
 
