@@ -100,89 +100,91 @@
 
 
 
-    <div class="relative lg:h-screen overflow-hidden">
+    <div class="relative lg:h-screen overflow-hidden ">
         <div
             class="absolute inset-0 bg-[url(./images/roated_banner.png)] bg-cover bg-center  bg-black/65 bg-blend-multiply scale-x-[-1] ">
         </div>
-        <div class="relative z-10 pt-16 md:pt-20 w-[90%] mx-auto">
+        <div class="relative z-10 pt-16 md:pt-20 w-[90%] mx-auto mb-10 md:mb-16  lg:mb-30">
             <h1 class="text-5xl text-white">Fitness Plans & <span class="text-[#FF512F]  ">Nutritions</span></h1>
         </div>
 
 
         <!-- plans cards section -->
 
-        <div class="flex justify-center w-[90%] mx-auto">
-            <section class="grid w-[80%] justify-center items-center md:grid-cols-2 lg:grid-cols-3">
-            <!-- card 1  -->
+       <!-- plans cards section -->
+<div class="flex justify-center w-[90%] mx-auto relative">
+    <section class="relative grid w-[80%] justify-center items-center md:grid-cols-2 lg:grid-cols-3 gap-6 py-16">
 
-            <div class="z-40 relative w-[300px] flex flex-col mt-6 items-center     border-[#FF512F] p-10   ">
-                <img class="h-16 w-16" src="./images/icons/workout 1.png" alt="">
-                 
-                <h1 class="text-white text-center mt-4"> Weight Loss</h1>
-                <p class="text-gray-400 text-center w-[80%] mx-auto text-[10px] mt-10">
-                    Weight loss can have causes that aren't due to underlying disease. Examples include dieting,
-                    exercise, malnutrition or lack of access to food.
-                </p>
-            </div>
+        <!-- Horizontal line (middle) -->
+        <div class="absolute hidden lg:block top-1/2 left-0 w-full border-t border-orange-500"></div>
 
-            <!-- card 2  -->
+        <!-- Vertical line (left) -->
+        <div class="hidden lg:block absolute top-0 left-1/3 h-full border-l border-orange-500"></div>
+        <!-- Vertical line (left) -->
+        <div class="hidden lg:block absolute top-0 left-2/3 h-full border-l border-orange-500"></div>
 
-            <div class="z-40 relative w-[300px] flex flex-col mt-6 items-center border-2 border-[#FF512F] p-10">
-                <img class="h-16 w-16" src="./images/icons/yoga 1.png
-            " alt="">
-
-                <h1 class="text-white text-center mt-4"> Classic Yoga</h1>
-                <p class="text-gray-400 text-center w-[80%] mx-auto text-[10px] mt-10">
-                    The term "yoga" in the Western world often denotes a modern form of Hatha yoga and a posture-based
-                    physical fitness, stress-relief.
-                </p>
-            </div>
-            <!-- card 3  -->
-
-            <div class="z-40 relative w-[300px] flex flex-col mt-6 items-center">
-                <img class="h-16 w-16" src="./images/icons/bicycle 1.png" alt="">
-                 
-                <h1 class="text-white text-center mt-4">Cycling</h1>
-                <p class="text-gray-400 text-center w-[80%] mx-auto text-[10px] mt-10">
-                    Cycling, also, when on a two-wheeled bicycle, called bicycling or biking, is the use of cycles for
-                    transport, recreation, exercise or sport.
-                </p>
-            </div>
-            <!-- card 4  -->
-
-            <div class="z-40 relative w-[300px] flex flex-col mt-6 items-center">
-                <img class="h-16 w-16" src="./images/icons/biceps.png" alt="">
-
-                <h1 class="text-white text-center mt-4"> Body Building</h1>
-                <p class="text-gray-400 text-center w-[80%] mx-auto text-[10px] mt-10">
-                    Bodybuilding is the use of progressive resistance exercise to control and develop one's muscles by
-                    muscle hypertrophy for aesthetic purposes.
-                </p>
-            </div>
-            <!-- card 5  -->
-
-            <div class="z-40 relative w-[300px] flex flex-col mt-6 items-center">
-                <img class="h-16 w-16" src="./images/icons/fitness.png" alt="">
-                 
-                <h1 class="text-white text-center mt-4"> Musculation</h1>
-                <p class="text-gray-400 text-center w-[80%] mx-auto text-[10px] mt-10">
-                    Weight training is a common type of strength training for developing the strength, size of skeletal
-                    muscles and maintenance of strength.
-                </p>
-            </div>
-            <!-- card 6  -->
-
-            <div class="z-40 relative w-[300px] flex flex-col mt-6 items-center">
-                <img class="h-16 w-16" src="./images/icons/runer-silhouette-running-fast.png
-            " alt="">
-                <h1 class="text-white text-center mt-4">Fitness Running</h1>
-                <p class="text-gray-400 text-center w-[80%] mx-auto text-[10px] mt-10">
-                    Running is a method of terrestrial locomotion allowing humans and other animals to move rapidly on
-                    foot.
-                </p>
-            </div>
-        </section>
+        <!-- card 1 -->
+        <div class="z-40 relative w-60 mx-auto flex flex-col mt-6 items-center">
+            <img class="h-16 w-16" src="./images/icons/workout 1.png" alt="">
+            <h1 class="text-white text-center mt-4">Weight Loss</h1>
+            <p class="text-gray-400 text-center w-[80%] mx-auto text-[10px] mt-10">
+                Weight loss can have causes that aren't due to underlying disease. Examples include dieting,
+                exercise, malnutrition or lack of access to food.
+            </p>
         </div>
+
+        <!-- card 2 -->
+        <div class="z-40 relative w-60 mx-auto flex flex-col mt-6 items-center">
+            <img class="h-16 w-16" src="./images/icons/yoga 1.png" alt="">
+            <h1 class="text-white text-center mt-4">Classic Yoga</h1>
+            <p class="text-gray-400 text-center w-[80%] mx-auto text-[10px] mt-10">
+                The term "yoga" in the Western world often denotes a modern form of Hatha yoga and
+                posture-based physical fitness, stress-relief.
+            </p>
+        </div>
+
+        <!-- card 3 -->
+        <div class="z-40 relative w-60 mx-auto flex flex-col mt-6 items-center">
+            <img class="h-16 w-16" src="./images/icons/bicycle 1.png" alt="">
+            <h1 class="text-white text-center mt-4">Cycling</h1>
+            <p class="text-gray-400 text-center w-[80%] mx-auto text-[10px] mt-10">
+                Cycling, also, when on a two-wheeled bicycle, called bicycling or biking, is the use of cycles for
+                transport, recreation, exercise or sport.
+            </p>
+        </div>
+
+        <!-- card 4 -->
+        <div class="z-40 relative w-60 mx-auto flex flex-col mt-6 items-center">
+            <img class="h-16 w-16" src="./images/icons/biceps.png" alt="">
+            <h1 class="text-white text-center mt-4">Body Building</h1>
+            <p class="text-gray-400 text-center w-[80%] mx-auto text-[10px] mt-10">
+                Bodybuilding is the use of progressive resistance exercise to control and develop one's muscles
+                by muscle hypertrophy for aesthetic purposes.
+            </p>
+        </div>
+
+        <!-- card 5 -->
+        <div class="z-40 relative w-60 mx-auto flex flex-col mt-6 items-center">
+            <img class="h-16 w-16" src="./images/icons/fitness.png" alt="">
+            <h1 class="text-white text-center mt-4">Musculation</h1>
+            <p class="text-gray-400 text-center w-[80%] mx-auto text-[10px] mt-10">
+                Weight training is a common type of strength training for developing the strength, size of
+                skeletal muscles and maintenance of strength.
+            </p>
+        </div>
+
+        <!-- card 6 -->
+        <div class="z-40 relative w-60 mx-auto flex flex-col mt-6 items-center">
+            <img class="h-16 w-16" src="./images/icons/runer-silhouette-running-fast.png" alt="">
+            <h1 class="text-white text-center mt-4">Fitness Running</h1>
+            <p class="text-gray-400 text-center w-[80%] mx-auto text-[10px] mt-10">
+                Running is a method of terrestrial locomotion allowing humans and other animals to move rapidly
+                on foot.
+            </p>
+        </div>
+    </section>
+</div>
+
 
 
     </div>
